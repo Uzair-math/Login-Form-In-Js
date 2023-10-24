@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box !important;
+}
+.bor{
+    border: 1px solid #fff !important;
+}
+body{
+     font-family:'Montserrat', sans-serif;
+     line-height: 1.7;
+}
+section.signup{
+    height: 100vh;
+    background-image: url("header-image2.jpg");
+    background-size: cover;
+
+}
+section.signup .container form .row{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+section.signup .container .row form input{
+    border: 2px solid #fff !important;
+    outline: 0px;
+}
+::placeholder{
+    color: #fff;
+}
